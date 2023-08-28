@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: aliceblue;
+  height: 110px;
+  width: 400px;
+  border: 1px solid red;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 2.5px auto;
+  border: 1px solid green;
+}
+
+.a {
+  background-image: repeating-linear-gradient(red 25%, yellow 50%);
+}
+
+.b {
+  background-image: radial-gradient(red, green, red, green);
+}
+
+.c {
+  background-image: conic-gradient(red 45deg, yellow, blue);
+}
